@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="#FDF5E6"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoo" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/joias" />
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/eb" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=" Apresentamos com orgulho o Étoile Brillante, um dos colares mais deslumbrantes da Sophistique. Este colar é uma verdadeira obra-prima de elegância e sofisticação, destinado a elevar instantaneamente qualquer look.
+
+O cordão de ouro, adornado com um pingente de pérola e detalhes em ouro, exala uma beleza intemporal e delicada. Seu design refinado e gracioso complementa perfeitamente qualquer estilo, adicionando um toque de luxo e glamour a cada conjunto.
+
+O Étoile Brillante não é apenas uma joia; é uma declaração de classe e distinção, destinada a brilhar intensamente em qualquer ocasião. Seja para um evento especial ou para o dia a dia, este colar é o acessório perfeito para quem busca uma aparência elegante e refinada.
+
+Prepare-se para deslumbrar com o Étoile Brillante da Sophistique, onde a beleza atemporal encontra a elegância moderna em perfeita harmonia.." />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Étoile Brillante"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 2.050,00"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E" />
+
+            <!-- primeira compra  -->
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/er" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=" Apresentamos com distinção o Éclat Royal, um colar que personifica o requinte e a opulência distintos da Sophistique. Este colar é uma obra-prima de elegância e sofisticação, destinado a iluminar qualquer ocasião com seu brilho incomparável.
+
+Completamente cravejado de diamantes, o Éclat Royal exala uma aura de luxo e grandiosidade digna de realeza. Seus dois diamantes maiores como pingente adicionam um toque de distinção e glamour, elevando ainda mais a beleza desta joia excepcional.
+
+Este colar não é apenas uma peça de joalheria; é uma declaração de classe e refinamento, destinada a brilhar intensamente em qualquer evento. Seja para uma ocasião especial ou para acrescentar um toque de elegância ao seu dia a dia, o Éclat Royal é a escolha perfeita para quem busca uma aparência luxuosa e sofisticada.
+
+Prepare-se para deslumbrar com o Éclat Royal da Sophistique, onde a beleza dos diamantes encontra a elegância atemporal em perfeita harmonia." />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Éclat Royal"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 14.000,00"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+
+            </TableLayout>
+
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E" />
+            <!-- segunda compra  -->
+
+
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/lo" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=" Apresentamos com orgulho o Lumières d'Or, um anel que exala um brilho único e uma elegância sublime. Este deslumbrante anel de ouro é uma verdadeira obra-prima da Sophistique, projetada para encantar e cativar os olhares mais exigentes.
+
+Cada detalhe do Lumières d'Or foi cuidadosamente elaborado, desde as mini pérolas até os mini diamantes, criando uma composição harmoniosa e delicada. Seu design refinado e sofisticado é uma homenagem à beleza atemporal, enquanto sua aparência luminosa adiciona um toque de magia a qualquer conjunto.
+
+Este anel é mais do que uma simples peça de joalheria; é uma expressão de estilo e refinamento, destinada a elevar sua elegância a novos patamares. Seja para uma ocasião especial ou para o dia a dia, o Lumières d'Or é o complemento perfeito para quem busca um toque de sofisticação e glamour em sua vida.
+
+Prepare-se para brilhar intensamente com o Lumières d Or da Sophistique, onde a beleza das pérolas e dos diamantes se fundem em uma sinfonia de luz e elegância." />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lumières d'Or"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 2.500,00"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+
+            </TableLayout>
+
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E" />
+            <!-- Terceira compra -->
+
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/em" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Apresentamos com orgulho um dos mais deslumbrantes exemplares da coleção de joias da Sophistique :Éternelle Majesté Uma peça que personifica o luxo, a elegância e a sofisticação que definem nossa marca.
+
+
+Este brinco exibe uma harmonia sublime entre o ouro reluzente, pérolas verdadeiras e diamantes cintilantes. Com uma pérola grande como peça central, delicadamente adornada por três pérolas menores em cada extremidade, este brinco em ouro é uma verdadeira obra de arte.
+
+            Cada pérola é cuidadosamente cravada em ouro, realçando sua beleza natural, enquanto os diamantes estrategicamente cravejados ao redor proporcionam um brilho deslumbrante. O design é médio, delicado e exala uma aura de luxo incomparável.
+
+            O valor desta peça exclusiva da Sophistique será de
+            R$6.500 .Uma avaliação justa para uma joia tão excepcional, que certamente se tornará uma herança de beleza atemporal. " />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Éternelle Majesté"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 6.500,00"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+
+
+            </TableLayout>
+
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E" />
+            <!-- quarta compra -->
+
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/pr" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=" Apresentamos com distinção os Perle de Rêve, brincos que transcendem a simples joalheria para se tornarem verdadeiras obras de arte. Com pérolas como pingentes longos, estes brincos exibem uma aura de graça e refinamento, elevando instantaneamente qualquer visual.
+
+Cada detalhe dos Perle de Rêve foi meticulosamente elaborado, desde a parte com diamantes até o folheado a ouro, criando uma combinação perfeita de delicadeza e sofisticação. Seu design fino e elegante não apenas marca presença, mas também realça a personalidade e a elegância de quem os usa.
+
+Prepare-se para vivenciar um conto de elegância e sofisticação com os Perle de Rêve da Sophistique. Cada brinco é uma jornada através da beleza intemporal das pérolas, entrelaçada com o brilho radiante dos diamantes. Vista-se com esses brincos e embarque em uma aventura onde cada passo é marcado por uma aura de distinção e charme.
+
+Com esses brincos, você não apenas brilha, você resplandece, deixando uma impressão duradoura onde quer que vá. " />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Perle de Rêve"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 5.500,00"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+
+
+            </TableLayout>
+
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E" />
+            <!-- quarta compra -->
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

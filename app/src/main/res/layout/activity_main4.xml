@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="#FDF5E6"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoo" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/sophie" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/loja" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Na Sophistique, não apenas oferecemos moda e joias de luxo, queremos que você 'Sophistique-se' - abrace sua própria elegância e estilo com confiança. Cada peça em nossa coleção é mais do que um simples acessório; é uma declaração de quem você é e quem deseja ser. Nossa visão vai além de simplesmente satisfazer nossos clientes; aspiramos ser uma referência no mundo da moda de luxo, mantendo sempre nossa autenticidade e compromisso com a excelência. Valorizamos a beleza atemporal, a qualidade impecável e o serviço excepcional ao cliente. Porque acreditamos que o verdadeiro luxo está em ser autenticamente você mesmo. Junte-se a nós e descubra a beleza de Sophistique-onde o luxo encontra seu estilo." />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/nos" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/nos1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="A Sophistique é uma marca de moda fundada por Bruna Martins Marcelino, designer e idealizadora visionária, com o objetivo de criar algo verdadeiramente único no mundo da moda contemporânea. Sua missão desde o início foi trazer o estilo old money de maneira atualizada, buscando o luxo e o estilo na sociedade moderna. A visão de Bruna atraiu a atenção e o apoio de Iara Sophie, uma francesa apaixonada pela arte, que se tornou  a patrocinadora oficial da marca.
+
+A primeira loja da Sophistique foi inaugurada na França, país conhecido por sua rica tradição em moda e estilo. Desde então, a marca conquistou popularidade não apenas na Europa, mas também em grande parte das Américas, consolidando sua presença como uma das principais referências em moda de luxo.
+
+Além disso, a Sophistique conta com a parceria estratégica da empresa Lulumara como sócio, contribuindo para o crescimento e a expansão da marca. Na última coleção, a empresa teve uma contratação excelente, Belle Natario, uma renomada consultora de moda que trouxe sua expertise para elevar ainda mais o padrão de qualidade e sofisticação da marca.
+
+Apesar do crescimento contínuo, os objetivos da Sophistique nunca perderam sua essência. Cada sucesso alcançado é resultado de uma jornada marcada pelo comprometimento com a excelência, a inovação e a busca incessante pela perfeição. Na Sophistique, acreditamos que o verdadeiro luxo está na qualidade impecável, no design exclusivo e na experiência única que proporcionamos aos nossos clientes." />
+
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/novidade" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/colecao" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Apresentamos com orgulho a mais nova e exclusiva coleção da Sophistique: Marrom Sinfônico: Moda Outonal. Inspirada nas cores da estação e nas bebidas quentes que evocam o aconchego do outono, esta coleção é uma celebração da elegância e do charme outonal.
+
+Com tons derivados do marrom, como caramel, gingerbread e coffee, cada peça é cuidadosamente elaborada para transmitir uma sensação de sofisticação e delicadeza. Do Café au Lait Charm à Amendoa Luxuosa, cada nome reflete a inspiração por trás da coleção, enquanto cada peça oferece um toque único de luxo e estilo.
+
+Prepare-se para se envolver na suavidade do outono com a coleção Marrom Sinfônico: Moda Outonal da Sophistique. Deixe-se envolver pelo calor e pela elegância enquanto desfruta do conforto e da beleza que esta estação tão especial tem a oferecer." />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

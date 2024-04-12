@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="#FDF5E6"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoo" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/marrom" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/out1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Explore a essência do outono com nossa mais recente coleção 'Marrom Sinfônico: Moda Outonal Sophistique'. Apresentamos o elegante Café au Lait Charm, uma combinação refinada de sofisticação e encanto. Esta peça icônica celebra as cores suaves e sofisticadas da estação, com uma camisa de seda pura em tom creme e um corset rigorosamente trabalhado para realçar a silhueta.
+
+Completo com uma calça plissada na cor café com leite e botas de bico fino, este look transmite uma elegância sem igual. A atenção aos detalhes, desde os brincos minimalistas até a mini bolsa combinando, eleva o conjunto a um patamar de luxo incomparável.
+
+Por favor, observe que os outfits desta coleção são vendidos apenas como conjuntos completos. Ao adquirir o Café au Lait Charm e outros looks da coleção, o valor total da compra será aproximadamente R$ 4.940. Descubra a harmonia do outono com a exclusividade Sophistique." />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E"/>
+
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/out2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Explore a elegância do outono com nosso impressionante Toffee Elegance, parte da coleção 'Marrom Sinfônico: Moda Outonal Sophistique'. Este look excepcional apresenta um tricô oversize em cor de café, combinado com uma camisa social de gola V e mangas bufantes em branco pérola.
+
+Completando o visual, botas brancas de cano alto com bico em V e uma bolsa de couro na cor do tricô adicionam um toque de sofisticação. Não esquecendo os detalhes, brincos de ouro com uma pérola complementam o conjunto de maneira sublime.
+
+Este look exclusivo pode ser seu por apenas R$ 3.499. Assim como os demais outfits desta coleção, por favor, note que as peças do Toffee Elegance são vendidas apenas como conjunto completo. Ao adquirir este conjunto da Sophistique, você estará investindo em um estilo inigualável, elevando sua elegância para novos patamares." />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E"/>
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/out3" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Explore a sofisticação do outono com nosso deslumbrante Seda de Cacau, parte da coleção 'Marrom Sinfônico: Moda Outonal Sophistique'. Este look elegante apresenta uma calça de alfaiataria flare em cor cacau, combinada com uma blusa manga longa em algodão puro, com decote V ombro a ombro, trazendo sensualidade e elegância.
+
+Complementando o visual, brincos em ouro com lágrimas de pérola e um relógio folheado a ouro com fundo pérola adicionam um toque de luxo. Botas de cano baixo e uma bolsa em couro na cor cacau completam o conjunto com elegância.
+
+Este look exclusivo pode ser seu por apenas R$ 5.000, incluindo um brinde do perfume exclusivo Sophistique. Aproveite a oportunidade de investir em estilo e luxo incomparáveis com a Sophistique."></TextView>
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E"/>
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/out4" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text=" Descubra a elegância minimalista com nosso luxuoso Amêndoa Luxuosa, parte da coleção 'Marrom Sinfônico: Moda Outonal Sophistique'. Este conjunto clássico de alfaiataria apresenta uma regata em gola V em um tom amendoado, evocando classe e graciosidade, tornando qualquer pessoa deslumbrante.
+
+Para complementar o visual,não poderia faltar cinto, salto, relógio, óculos escuros e bolsa, todos em couro no mesmo tom amendoado mais escuro, adicionam harmonia ao look minimalista.
+
+Este look exclusivo pode ser seu por apenas R$ 3.000, oferecendo um estilo refinado e sofisticado que é verdadeiramente inesquecível. Aproveite a oportunidade de experimentar a elegância simples e atemporal da Sophistique."></TextView>
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E"/>
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/out5" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text=" Apresentamos o Caramelo Sofisticado, o último look da coleção Marrom Sinfônico: Moda Outonal. Finalizando a coleção com chave de ouro este conjunto em couro cor caramelo é uma expressão deslumbrante de brilho e inovação, nunca antes visto. Tanto a jaqueta blazer quanto a calça em couro são peças que marcam presença em qualquer ambiente, destacando-se pela sua elegância.
+
+Para adicionar um toque delicado e leve, incluímos um lindo corset acinturado, com decote em formato de coração em cor pérola, trazendo uma sensualidade sutil ao look.
+
+E para finalizá-lo com perfeição, optamos por uma bota de cano médio com bico fino em branco e uma bolsa off white com detalhes dourados, adicionando um toque de glamour e refinamento.
+
+Este conjunto exclusivo é mais do que uma simples combinação de peças de roupa; é uma verdadeira declaração de estilo e sofisticação que certamente impressionará onde quer que você vá. E por apenas R$ 5.999, você pode garantir este look deslumbrante para fazer parte do seu guarda-roupa.."></TextView>
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

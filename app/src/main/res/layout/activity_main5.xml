@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="#FDF5E6"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoo" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/outfit" />
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/celine" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Encarne a essência da sofisticação com Celine o look exclusivo da Sophistique. Feito sob medida em algodão cru branco, o conjunto de alfaiataria exala elegância e modernidade. O pequeno blaiser  de manga três quartos oferece versatilidade e estilo, perfeita para qualquer ocasião. Complementando a parte de baixo, a calça apresenta um recorte fino, adicionando um toque de refinamento ao conjunto.
+
+Para elevar ainda mais o visual, o corset preto tomara que caia em formato coração é o ponto focal, esculpindo a silhueta com graça e sensualidade. Este conjunto é mais do que uma simples combinação de peças de roupa; é uma declaração de classe e distinção. Prepare-se para deslumbrar em qualquer evento com este look exclusivo da Sophistique." />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Conjunto Celine Completo"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 2.050,00"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Blazer"
+                        android:padding="8dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 1.150,00"
+                        android:padding="8dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Calça"
+                        android:padding="8dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 700,00"
+                        android:padding="8dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Corset"
+                        android:padding="8dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 300,00"
+                        android:padding="8dp" />
+                </TableRow>
+
+            </TableLayout>
+
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E" />
+
+            <!-- primeira compra  -->
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/elizabeth" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=" Apresentamos com orgulho o Elizabeth, outro look exclusivo da Sophistique. Este conjunto é uma combinação perfeita de elegância e versatilidade, feito sob medida para a mulher moderna que valoriza o estilo impecável.
+
+O short de alfaiataria off white é uma peça deslumbrante, que oferece não apenas estilo, mas também versatilidade para diversas ocasiões. Complementando-o, temos uma camisa social de seda branca, com gola em V, que adiciona sofisticação e elegância ao conjunto.
+
+Para finalizar com maestria, o blazer preto é o toque de sofisticação que torna este look verdadeiramente memorável. Com sua estrutura impecável e design refinado, eleva todo o conjunto a um patamar de luxo e elegância incomparáveis.
+
+O Elizabeth é mais do que uma simples combinação de peças de roupa; é uma expressão de estilo refinado e sofisticação atemporal. Prepare-se para se destacar em qualquer evento com este look exclusivo da Sophistique." />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Outfit completo Elizabeth"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 2.000,00"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Blazer"
+                        android:padding="8dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 1.250,00"
+                        android:padding="8dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Short"
+                        android:padding="8dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 400,00"
+                        android:padding="8dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Camisa"
+                        android:padding="8dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 400,00"
+                        android:padding="8dp" />
+                </TableRow>
+
+            </TableLayout>
+
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E" />
+            <!-- segunda compra  -->
+
+
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/arabella" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="  Apresentamos com distinção o Arabella, um look extraordinário que personifica o luxo e a sofisticação característicos da Sophistique. Este conjunto é uma celebração da feminilidade e elegância, projetado para fazer qualquer mulher se sentir verdadeiramente divina, sensual e sofisticada.
+
+A parte de cima é um blazer de mangas curtas e bufantes, acinturado e com decote em V, que eleva instantaneamente o visual a um patamar de requinte e glamour. Cada detalhe foi cuidadosamente elaborado para proporcionar um ajuste perfeito e uma silhueta impecável.
+
+A parte inferior é uma saia longa estilo sereia, toda em preto brilhante, que adiciona um toque de drama e elegância ao conjunto. Com sua forma esculpida e fluidez graciosa, esta saia é uma escolha perfeita para qualquer ocasião especial.
+
+O Arabella é mais do que um simples conjunto de roupas; é uma expressão de estilo e confiança, destinado a fazer uma declaração inesquecível onde quer que você vá. Prepare-se para brilhar intensamente com este look exclusivo da Sophistique." />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Conjunto Arabella completo"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 2.500,00"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Blazer"
+                        android:padding="8dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 1.500,00"
+                        android:padding="8dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Saia"
+                        android:padding="8dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 1.500,00"
+                        android:padding="8dp" />
+                </TableRow>
+
+
+            </TableLayout>
+
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E" />
+            <!-- Terceira compra -->
+
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/penelope" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Apresentamos com distinção o Penelope, um vestido extraordinário que encapsula o refinamento e a sofisticação distintos da Sophistique. Este vestido é uma verdadeira ode à feminilidade, projetado para elevar qualquer mulher a um nível de elegância sem igual.
+
+Com alças finas e um decote em V quase em formato de coração, o Penelope exala uma aura de delicadeza e graça. Os detalhes em branco adicionam um toque de contraste e sofisticação ao vestido preto, criando um visual visualmente deslumbrante e moderno.
+
+O comprimento do vestido até o tornozelo, juntamente com a silhueta bem acinturada, trazem uma sensação de fluidez e movimento, enquanto ressaltam as curvas femininas de maneira elegante e sedutora.
+
+O Penelope é mais do que um simples vestido; é uma declaração de estilo e confiança, destinado a deixar uma impressão duradoura em qualquer ocasião. Prepare-se para deslumbrar com graça, sensualidade e elegância incomparáveis com este look exclusivo da Sophistique. " />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vestido Penelope"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 2.500,00"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+
+
+            </TableLayout>
+
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E" />
+            <!-- quarta compra -->
+
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/charlotte" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="  Apresentamos com distinção o Charlotte, um vestido de alta costura que personifica o requinte e a sofisticação distintos da Sophistique. Este vestido é uma manifestação de elegância atemporal e sensualidade refinada, projetado para a mulher que valoriza o luxo e a excelência em cada detalhe.
+
+Com mangas longas e um decote quadrado que realça a silhueta, o Charlotte exala uma aura de fineza e sofisticação. O ajuste justo e acinturado destaca as curvas femininas de maneira graciosa, enquanto proporciona uma sensação de confiança e poder.
+
+O vestido, de comprimento médio, é uma escolha perfeita para uma variedade de ocasiões, desde eventos sociais até noites glamorosas. Seu design impecável e sua execução artesanal garantem que você se destaque em qualquer ambiente, emanando elegância e charme por onde passar.
+
+O Charlotte é mais do que um simples vestido; é uma expressão de estilo refinado e sofisticação incomparável. Prepare-se para deslumbrar com este look exclusivo da Sophistique, onde a sensualidade encontra a elegância em perfeita harmonia. " />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vestido Charlotte"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 3.500,00"
+                        android:padding="8dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+
+
+            </TableLayout>
+
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="comprar"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9A681E" />
+            <!-- quarta compra -->
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
