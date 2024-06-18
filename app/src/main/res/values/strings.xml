@@ -1,10 +1,53 @@
 <resources>
     <string name="app_name">appsophi</string>
 
-<string name="agr" >Caro(a) Cliente,
+    <string name="agr">Caro(a) Cliente,
 
 Agradecemos pela sua compra na Sophistique! Sua escolha nos enche de alegria e gratidão. Esperamos que seu novo item traga ainda mais elegância e sofisticação para sua vida.
 
 Atenciosamente,
 Equipe Sophistique </string>
+
+
+    <string name="txt_titulo">Qual a forma de pagamento ?</string>
+    <string name="ckb_credito">Crédito</string>
+    <string name="ckb_debito">Debito</string>
+    <string name="ckb_avista">À vista</string>
+    <string name="ckb_parcelado">Parcelado</string>
+    <string name="ckb_boleto">Boleto</string>
+    <string name="btn_pagar">Pagar</string>
+    <string name="btn_desmarcar">Desmarcar</string>
+    <string name="action_settings">Configurações</string>
+
+
+    <string-array name="Escolha_seu_estado_Brasil">
+        <item>Acre</item>
+        <item>Alagoas</item>
+        <item>Amapá</item>
+        <item>Amazonas</item>
+        <item>Bahia</item>
+        <item>Ceará</item>
+        <item>Distrito Federal</item>
+        <item>Espírito Santo</item>
+        <item>Goiás</item>
+        <item>Maranhão</item>
+        <item>Mato Grosso</item>
+        <item>Mato Grosso do Sul</item>
+        <item>Minas Gerais</item>
+        <item>Pará</item>
+        <item>Paraíba</item>
+        <item>Paraná</item>
+        <item>Pernambuco</item>
+        <item>Piauí</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio Grande do Norte</item>
+        <item>Rio Grande do Sul</item>
+        <item>Rondônia</item>
+        <item>Roraima</item>
+        <item>Santa Catarina</item>
+        <item>São Paulo</item>
+        <item>Sergipe</item>
+        <item>Tocantins</item>
+    </string-array>
+
 </resources>
